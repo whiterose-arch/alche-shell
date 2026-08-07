@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#writes apache group log visitors by ip and http status codes
+awk '{count[$1, $9]++} END {for (key in count) {split(key, data, SUBSEP); print count[key], data[1], data[2]}}' apache-access.log | sort -rn
