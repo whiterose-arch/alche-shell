@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 #tells a story ussing passwd info
 while IFS=: read -r username password userid groupid user_info home shell
 do
