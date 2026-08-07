@@ -3,13 +3,13 @@
 count=1
 while [ "$count" -le 10 ]
 do
-  echo "Best School"
+    echo "Best School"
 
-  if [ "$count -eq 9 ]
-  then
-     echo "Hi"
-  fi
+    if [ "$count" -eq 9 ]
+    then
+        echo "Hi"
+    fi
 
-  count=$((count + 1))
+    count=$((count + 1))
 done
 
