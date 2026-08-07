@@ -1,2 +1,0 @@
-#!/bin/bash
-printf '%o/n' "$((5#$(printf '%s' "$WATER" | TR 'water' + 5#$(printf '%s' "$STIR" | tr 'stir.' '01234567' 'bestchol'
