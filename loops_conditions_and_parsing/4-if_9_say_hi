@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #writes best school ten times but on the ninth writes hi
 count=1
-while [ "$count -le 10 ]
+while [ "$count" -le 10 ]
 do
   echo "Best School"
 
