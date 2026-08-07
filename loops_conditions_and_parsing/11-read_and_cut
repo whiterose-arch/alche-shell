@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #writes user name, uid and home dir from passwd
-while IFS=: read -r username password userid groupid description home shell
+
+while IFS=: read -r username _  userid _ _ home _
 do
     echo "$username:$userid:$home"
 done < /etc/passwd
